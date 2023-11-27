@@ -30,7 +30,7 @@ function App() {
           <Route path="/login" element={<Login />} />
           <Route path="/logout" element={<Login />} />
           <Route path="/forgotpassword" element={<ForgotPassword />} />
-          <Route path="/" element={<Header Dashboard/>}>
+          <Route path="/" element={<Header Login/>}>
             <Route path="/dashboard" element={<Dashboard />} />
             <Route path="/orders" element={<Orders />} />
             <Route path="/requests" element={<Requests />} />
@@ -56,22 +56,3 @@ function App() {
 }
 
 export default App;
-{/* <>
-    <Container className="d-flex align-items-center justify-content-center"
-      style={{ minHeight: "100vh" }}>
-      <div className='w-100' style={{ maxWidth: "400px" }}>
-        <Router>
-          <Routes>
-            <Route path="/login" element={<Login />} />
-            <Route path="/ForgotPassword" element={<ForgotPassword />} />
-            {/* <Route path="/update-profile" element={<UpdateProfile />} /> */}
-    //           <Route path="/" element={<HomePage />} />
-
-//         </Routes>
-//       </Router>
-
-//     </div>
-
-//  </Container>
-//  </>
-///*/}

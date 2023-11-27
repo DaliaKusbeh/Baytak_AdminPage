@@ -1,0 +1,136 @@
+.order-container {
+  margin: 20px;
+}
+
+.page-title {
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #008820;
+  height: 1em;
+}
+
+.transaction-details-btn {
+  margin-bottom: 10px;
+  background-color: #cccccc;
+  color: #008820;
+  border: none;
+  padding: 5px 10px;
+  
+  border-radius: 2em;
+  cursor: pointer;
+}
+
+.transaction-details-table {
+  margin-bottom: 20px;
+  width: 100%;
+  /* border-collapse: collapse; */
+  border-radius: 2em;
+  
+}
+.transaction-details-table th:not(:last-child),
+.transaction-details-table td:not(:last-child) {
+  color: rgb(9, 110, 30);
+  padding: 8px;
+  border: 1px solid #ccc;
+}
+
+
+.transaction-details-table th,
+.transaction-details-table td {
+  padding: 8px;
+  border: 1px solid #ccc3c3;
+  color: #0a3c62;
+}
+
+.info-section-title {
+  margin-bottom: 10px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #008820;
+}
+
+.info-table {
+  margin-bottom: 20px;
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.info-table th,
+.info-table td {
+  padding: 8px;
+  border: 1px solid #ccc;
+  color: gray;
+
+}
+
+.orders-table {
+  width: 100%;
+  border-collapse: collapse;
+  color: #d7f0e1;
+  border: 1px solid #ccc;
+}
+
+.sth{
+  color: #085e1c;
+  background-color:  #d7f0e1;
+  font-size: 13px;
+}
+.orders-table th:not(child){
+  color: #085e1c;
+  background-color:  #fae9d1;
+  font-size: 13px;
+}
+.orders-table td:not(:last-child) {
+  color: rgb(9, 110, 30);
+  padding: 8px;
+  border: 1px solid #ccc;
+}
+
+.selected {
+  background-color: #dee7dd;
+
+
+}
+
+.status-cell {
+  font-weight: bold;
+  text-align: center;
+  font-size: medium;
+}
+
+.status-completed {
+ color: #28a745;
+ padding: 8px;
+ border: 1px solid #ccc;
+}
+
+.status-pending {
+ color: #ffc107;
+ padding: 8px;
+ border: 1px solid #ccc;
+ 
+}
+
+.status-in-progress {
+ color: #17a2b8;
+ padding: 8px;
+ border: 1px solid #ccc;
+}
+
+.status-pending-payment {
+  color: #891a1a;
+  padding: 8px;
+  border: 1px solid #ccc;
+}
+.recent-order__status-cancelled {
+  color: #b1279f;
+  padding: 8px;
+  border: 1px solid #ccc;
+ }
+
+ .recent-order__status-accepted {
+  color: #38085b;
+  padding: 8px;
+  border: 1px solid #ccc;
+ }

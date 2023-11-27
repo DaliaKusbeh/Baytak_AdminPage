@@ -1,0 +1,81 @@
+/* Styling for the table container */
+.recent-order {
+    margin: 20px;
+  }
+  
+  /* Styling for the table */
+  .recent-order__table {
+    width: 90%;
+    border-collapse: collapse;
+    text-align: center;
+    padding: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  /* Styling for table headers */
+  .recent-order__header {
+    background-color: #f2f2f2;
+    padding: 10px;
+    text-align: left;
+    color: #087819;
+    text-align: center;
+    font-weight: bold;
+    padding: 8px;
+    border: 1px solid #ccc;
+  }
+  
+  /* Styling for table cells */
+  .recent-order__cell {
+    padding: 5px;
+    text-align: center;
+    border: 1px solid #ccc;
+    color: #087819;
+  }
+  
+  /* Styling for the status cell */
+  .recent-order__status-cell {
+    display: inline-block;
+    padding: 6px 12px;
+    border-radius: 4px;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  
+  /* Custom status colors */
+  .recent-order__status-completed {
+    color: #33cc33;
+  }
+  
+  .status-completed {
+    color: #28a745;
+    padding: 8px;
+    border: 1px solid #ccc;
+   }
+   
+   .status-pending {
+    color: #ffc107;
+    padding: 8px;
+    border: 1px solid #ccc;
+    
+   }
+   
+   .status-in-progress {
+    color: #17a2b8;
+    padding: 8px;
+    border: 1px solid #ccc;
+   }
+   
+   .status-pending-payment {
+     color: #891a1a;
+     padding: 8px;
+     border: 1px solid #ccc;
+   }
+   .recent-order__status-cancelled {
+     color: #b1279f;
+    }
+   
+    .recent-order__status-accepted {
+     color: #38085b;
+     padding: 8px;
+     border: 1px solid #ccc;
+    }

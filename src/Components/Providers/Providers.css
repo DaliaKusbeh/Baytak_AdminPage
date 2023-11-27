@@ -1,0 +1,160 @@
+/* Providers Container */
+.providers-container {
+  width: 100%;
+  margin: 0 auto;
+  padding: 20px;
+  overflow-y:scroll
+}
+
+/* Page Title */
+.page-title-p {
+  font-size: 24px;
+  margin-bottom: 20px;
+  margin-top: 1em;
+  color: green;
+}
+
+.del {
+  border: none;
+  color: red;
+  border-radius: 5px;
+}
+
+/* Providers Table */
+.providers-card {
+  background-color: #f7f7f7;
+  border-radius: 5px;
+  padding: 20px;
+}
+
+.all {
+  margin-right: 1em;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.providers-table {
+  width: 100%;
+  border: 1px solid #ccc;
+  color: darkgreen;
+  border-collapse: collapse;
+}
+
+.providers-table th{
+  font-size: 13px;
+  text-align: center;
+}
+.providers-table td {
+  padding: 10px;
+  text-align: left;
+  border: 1px solid #ccc;
+  text-align: center;
+
+
+}
+
+.providers-table th {
+  font-weight: bold;
+  background-color: #d7f0e1;
+  color: rgb(4, 66, 19);
+}
+
+.providers-table tbody tr:hover {
+  background-color: #ebebeb;
+  cursor: pointer;
+}
+
+.selected {
+  background-color: #ebebeb;
+}
+
+/* Section Title */
+.section-title {
+  font-size: 20px;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+/* Services Table */
+.services-card {
+  background-color: #f7f7f7;
+  border-radius: 5px;
+  padding: 20px;
+}
+
+.service-table {
+  width: 100%;
+  border-collapse: collapse;
+  border: 1px solid #ccc;
+  color: darkgreen;
+
+
+}
+
+.service-table th {
+  text-align: center;
+  background-color: #d7f0e1;
+  color: rgb(4, 66, 19);
+}
+
+.service-table td {
+  padding: 10px;
+  text-align: left;
+  border: 1px solid #ccc;
+  
+
+}
+
+/* Time Slots Table */
+.time-slots-card {
+  background-color: #f7f7f7;
+  border-radius: 5px;
+  padding: 20px;
+}
+
+.time-slots-table {
+  width: 100%;
+  border: 1px solid #ccc;
+  color: darkgreen;
+
+  border-collapse: collapse;
+}
+
+.time-slots-table th {
+  background-color: #d7f0e1;
+  text-align: center;
+  color: rgb(4, 66, 19);
+}
+
+.time-slots-table td {
+  padding: 10px;
+  text-align: left;
+  border: 1px solid #ccc;
+  text-align: center;
+}
+
+.warningButton{
+  border: none;
+  border-radius: 6px;
+  color: red;
+}
+
+.sendButton{
+  margin-left: 1em;
+  border-radius: 6px;
+  color: red;
+  border: none;
+}
+
+.sendText{
+  color: rgb(6, 14, 61);
+
+}
+
+.areaText{
+  width: 30em;
+  height: 5em;
+  border-color: rgb(10, 61, 30);
+  overflow-y: auto;
+  border-radius: 6px;
+}

@@ -1,0 +1,36 @@
+.container-post-r {
+    margin: 20px;
+    border-color: grey;
+    width: 100%;
+  }
+  
+  .card-r {
+    margin-bottom: 20px;
+    
+  }
+  
+  .card-body-r {
+    padding: 20px;
+  }
+  
+  .select-city-r {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .bbbb-r {
+    width: 50%;
+    text-align: center;
+    justify-content: center;
+    color: rgb(8, 66, 21);
+    border: none;
+    border-radius: 5px;
+    
+  }
+  
+  .h2 {
+    margin-top: 0;
+    color: darkgreen;
+  }
+  

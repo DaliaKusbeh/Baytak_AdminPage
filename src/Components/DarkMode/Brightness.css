@@ -1,0 +1,22 @@
+.brightness {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f9f9f9; /* default background color */
+  }
+  
+  .brightness.light {
+    background-color: #f9f9f9; /* light mode background color */
+    color: #333; /* light mode text color */
+  }
+  
+  .brightness.dark {
+    background-color: #333; /* dark mode background color */
+    color: #f9f9f9; /* dark mode text color */
+  }
+  
+  .brightness button {
+    margin-right: 10px;
+  }
+  

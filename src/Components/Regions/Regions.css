@@ -1,0 +1,82 @@
+.region-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-top: 20px;
+}
+
+.region-left-panel {
+  /* flex: 1; */
+  width: 20em;
+  margin: 2em;
+  overflow-y: auto;
+  color: #035219;
+  max-height: 100vh;
+}
+
+.region-city-select {
+  color: #035219;
+  margin-bottom: 20px;
+}
+
+.region-list {
+  overflow-y: auto;
+  margin-top: 20px;
+}
+
+.region-item {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.region-item:hover {
+  background-color: #ebebeb;
+}
+.region_map{
+  width:100%;
+  height: 50em;
+}
+.region-middle-panel {
+  /* flex: 1; */
+  width: 50em;
+}
+.myText{
+  color: #035219;
+  margin: 1.2em;
+}
+.selected-region {
+  width: 100%;
+  height: 50vh;
+  border: none;
+}
+
+.myButton{
+  background-color: #e9e3e3;
+  border: none;
+  color: #035219;
+  width: 8em;
+  border-radius: 5px;
+}
+
+.myTextt{
+  color: rgb(89, 44, 29);
+  font-size: 30px;
+}
+.region-nav-link {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #333;
+  margin-top: 20px;
+}
+
+.region-nav-link .material-icons {
+  margin-right: 5px;
+}
+
+.active {
+  font-weight: bold;
+}

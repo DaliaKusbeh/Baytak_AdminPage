@@ -1,0 +1,97 @@
+Date : 2023-07-15 16:28:22
+Directory : c:\Users\ASUS\Desktop\Final Semester\Gratuation Project\Admin\admin-page\src
+Total : 54 files,  4154 codes, 1108 comments, 743 blanks, all 6005 lines
+
+Languages
++------------+------------+------------+------------+------------+------------+
+| language   | files      | code       | comment    | blank      | total      |
++------------+------------+------------+------------+------------+------------+
+| JavaScript |         36 |      2,869 |      1,077 |        453 |      4,399 |
+| CSS        |         18 |      1,285 |         31 |        290 |      1,606 |
++------------+------------+------------+------------+------------+------------+
+
+Directories
++---------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                                                                                                | files      | code       | comment    | blank      | total      |
++---------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                                                                                                   |         54 |      4,154 |      1,108 |        743 |      6,005 |
+| . (Files)                                                                                                           |          5 |         66 |         16 |         18 |        100 |
+| Components                                                                                                          |         48 |      4,074 |      1,092 |        720 |      5,886 |
+| Components (Files)                                                                                                  |          4 |         28 |         10 |         11 |         49 |
+| Components\Add                                                                                                      |          7 |        831 |         12 |        126 |        969 |
+| Components\AdminProfile                                                                                             |          1 |        130 |          1 |         12 |        143 |
+| Components\Customers                                                                                                |          2 |        251 |          2 |         44 |        297 |
+| Components\DarkMode                                                                                                 |          2 |         33 |          0 |          9 |         42 |
+| Components\Dashboard                                                                                                |          5 |        495 |         10 |         84 |        589 |
+| Components\Footer                                                                                                   |          2 |          7 |          0 |          3 |         10 |
+| Components\Header                                                                                                   |          4 |        375 |        518 |        112 |      1,005 |
+| Components\Login                                                                                                    |          4 |        281 |          1 |         46 |        328 |
+| Components\Logout                                                                                                   |          2 |         22 |          5 |          9 |         36 |
+| Components\Orders                                                                                                   |          4 |        356 |          1 |         41 |        398 |
+| Components\Providers                                                                                                |          2 |        279 |          6 |         47 |        332 |
+| Components\Regions                                                                                                  |          3 |        304 |          2 |         29 |        335 |
+| Components\Requests                                                                                                 |          2 |        332 |          0 |         43 |        375 |
+| Components\Services                                                                                                 |          4 |        350 |        524 |        104 |        978 |
+| Conetext                                                                                                            |          1 |         14 |          0 |          5 |         19 |
++---------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++---------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| filename                                                                                                            | language   | code       | comment    | blank      | total      |
++---------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| c:\Users\ASUS\Desktop\Final Semester\Gratuation Project\Admin\admin-page\src\App.css                                | CSS        |          4 |          0 |          0 |          4 |
+| c:\Users\ASUS\Desktop\Final Semester\Gratuation Project\Admin\admin-page\src\App.js                                 | JavaScript |         36 |         14 |         11 |         61 |
+| c:\Users\ASUS\Desktop\Final Semester\Gratuation Project\Admin\admin-page\src\Components\Add\AddAdmin.js             | JavaScript |        170 |          1 |         17 |        188 |
+| c:\Users\ASUS\Desktop\Final Semester\Gratuation Project\Admin\admin-page\src\Components\Add\Admin.css               | CSS        |        173 |          2 |         39 |        214 |
+| c:\Users\ASUS\Desktop\Final Semester\Gratuation Project\Admin\admin-page\src\Components\Add\AdminList.css           | CSS        |         25 |          1 |          7 |         33 |
+| c:\Users\ASUS\Desktop\Final Semester\Gratuation Project\Admin\admin-page\src\Components\Add\AdminList.js            | JavaScript |        113 |          1 |         13 |        127 |
+| c:\Users\ASUS\Desktop\Final Semester\Gratuation Project\Admin\admin-page\src\Components\Add\PostCities.js           | JavaScript |          7 |          0 |          2 |          9 |
+| c:\Users\ASUS\Desktop\Final Semester\Gratuation Project\Admin\admin-page\src\Components\Add\PostGeneralServices.js  | JavaScript |        188 |          4 |         29 |        221 |
+| c:\Users\ASUS\Desktop\Final Semester\Gratuation Project\Admin\admin-page\src\Components\Add\PostRegion.js           | JavaScript |        155 |          3 |         19 |        177 |
+| c:\Users\ASUS\Desktop\Final Semester\Gratuation Project\Admin\admin-page\src\Components\AdminProfile\Profile.js     | JavaScript |        130 |          1 |         12 |        143 |
+| c:\Users\ASUS\Desktop\Final Semester\Gratuation Project\Admin\admin-page\src\Components\Customers\Customer.css      | CSS        |         76 |          1 |         24 |        101 |
+| c:\Users\ASUS\Desktop\Final Semester\Gratuation Project\Admin\admin-page\src\Components\Customers\Customers.js      | JavaScript |        175 |          1 |         20 |        196 |
+| c:\Users\ASUS\Desktop\Final Semester\Gratuation Project\Admin\admin-page\src\Components\DarkMode\Brightness.css     | CSS        |         18 |          0 |          4 |         22 |
+| c:\Users\ASUS\Desktop\Final Semester\Gratuation Project\Admin\admin-page\src\Components\DarkMode\Brightness.js      | JavaScript |         15 |          0 |          5 |         20 |
+| c:\Users\ASUS\Desktop\Final Semester\Gratuation Project\Admin\admin-page\src\Components\Dashboard\Carousel .js      | JavaScript |         22 |          0 |          6 |         28 |
+| c:\Users\ASUS\Desktop\Final Semester\Gratuation Project\Admin\admin-page\src\Components\Dashboard\Dashboard.css     | CSS        |        137 |          2 |         31 |        170 |
+| c:\Users\ASUS\Desktop\Final Semester\Gratuation Project\Admin\admin-page\src\Components\Dashboard\Dashboard.js      | JavaScript |        192 |          0 |         29 |        221 |
+| c:\Users\ASUS\Desktop\Final Semester\Gratuation Project\Admin\admin-page\src\Components\Dashboard\RecentOrder.css   | CSS        |         64 |          6 |         11 |         81 |
+| c:\Users\ASUS\Desktop\Final Semester\Gratuation Project\Admin\admin-page\src\Components\Dashboard\RecentOrder.js    | JavaScript |         80 |          2 |          7 |         89 |
+| c:\Users\ASUS\Desktop\Final Semester\Gratuation Project\Admin\admin-page\src\Components\Footer\Footer.css           | CSS        |          0 |          0 |          1 |          1 |
+| c:\Users\ASUS\Desktop\Final Semester\Gratuation Project\Admin\admin-page\src\Components\Footer\Footer.js            | JavaScript |          7 |          0 |          2 |          9 |
+| c:\Users\ASUS\Desktop\Final Semester\Gratuation Project\Admin\admin-page\src\Components\Header\Header.css           | CSS        |        214 |          9 |         48 |        271 |
+| c:\Users\ASUS\Desktop\Final Semester\Gratuation Project\Admin\admin-page\src\Components\Header\Header.js            | JavaScript |        126 |        509 |         60 |        695 |
+| c:\Users\ASUS\Desktop\Final Semester\Gratuation Project\Admin\admin-page\src\Components\Header\Search.js            | JavaScript |         18 |          0 |          4 |         22 |
+| c:\Users\ASUS\Desktop\Final Semester\Gratuation Project\Admin\admin-page\src\Components\Header\index.js             | JavaScript |         17 |          0 |          0 |         17 |
+| c:\Users\ASUS\Desktop\Final Semester\Gratuation Project\Admin\admin-page\src\Components\Login\ForgotPassword.js     | JavaScript |         27 |          0 |          2 |         29 |
+| c:\Users\ASUS\Desktop\Final Semester\Gratuation Project\Admin\admin-page\src\Components\Login\Login.js              | JavaScript |        110 |          0 |         14 |        124 |
+| c:\Users\ASUS\Desktop\Final Semester\Gratuation Project\Admin\admin-page\src\Components\Login\auth.js               | JavaScript |         25 |          0 |          7 |         32 |
+| c:\Users\ASUS\Desktop\Final Semester\Gratuation Project\Admin\admin-page\src\Components\Login\login.css             | CSS        |        119 |          1 |         23 |        143 |
+| c:\Users\ASUS\Desktop\Final Semester\Gratuation Project\Admin\admin-page\src\Components\Logout\Logout.css           | CSS        |          0 |          0 |          1 |          1 |
+| c:\Users\ASUS\Desktop\Final Semester\Gratuation Project\Admin\admin-page\src\Components\Logout\Logout.js            | JavaScript |         22 |          5 |          8 |         35 |
+| c:\Users\ASUS\Desktop\Final Semester\Gratuation Project\Admin\admin-page\src\Components\Orders\Details.js           | JavaScript |          7 |          0 |          2 |          9 |
+| c:\Users\ASUS\Desktop\Final Semester\Gratuation Project\Admin\admin-page\src\Components\Orders\Order.css            | CSS        |        112 |          1 |         23 |        136 |
+| c:\Users\ASUS\Desktop\Final Semester\Gratuation Project\Admin\admin-page\src\Components\Orders\Orders.js            | JavaScript |        237 |          0 |         15 |        252 |
+| c:\Users\ASUS\Desktop\Final Semester\Gratuation Project\Admin\admin-page\src\Components\Orders\gijs.js              | JavaScript |          0 |          0 |          1 |          1 |
+| c:\Users\ASUS\Desktop\Final Semester\Gratuation Project\Admin\admin-page\src\Components\Providers\Providers.css     | CSS        |        102 |          6 |         27 |        135 |
+| c:\Users\ASUS\Desktop\Final Semester\Gratuation Project\Admin\admin-page\src\Components\Providers\Providers.js      | JavaScript |        177 |          0 |         20 |        197 |
+| c:\Users\ASUS\Desktop\Final Semester\Gratuation Project\Admin\admin-page\src\Components\Regions\GetRegions.js       | JavaScript |        112 |          0 |         11 |        123 |
+| c:\Users\ASUS\Desktop\Final Semester\Gratuation Project\Admin\admin-page\src\Components\Regions\Regions.css         | CSS        |         74 |          2 |          9 |         85 |
+| c:\Users\ASUS\Desktop\Final Semester\Gratuation Project\Admin\admin-page\src\Components\Regions\Regions.js          | JavaScript |        118 |          0 |          9 |        127 |
+| c:\Users\ASUS\Desktop\Final Semester\Gratuation Project\Admin\admin-page\src\Components\Requests\Request.css        | CSS        |        105 |          0 |         25 |        130 |
+| c:\Users\ASUS\Desktop\Final Semester\Gratuation Project\Admin\admin-page\src\Components\Requests\Requests.js        | JavaScript |        227 |          0 |         18 |        245 |
+| c:\Users\ASUS\Desktop\Final Semester\Gratuation Project\Admin\admin-page\src\Components\Services\AddNewServices.css | CSS        |          3 |          0 |          0 |          3 |
+| c:\Users\ASUS\Desktop\Final Semester\Gratuation Project\Admin\admin-page\src\Components\Services\AddNewServices.js  | JavaScript |        182 |        427 |         60 |        669 |
+| c:\Users\ASUS\Desktop\Final Semester\Gratuation Project\Admin\admin-page\src\Components\Services\Services.js        | JavaScript |        106 |         97 |         28 |        231 |
+| c:\Users\ASUS\Desktop\Final Semester\Gratuation Project\Admin\admin-page\src\Components\Services\Servics.css        | CSS        |         59 |          0 |         16 |         75 |
+| c:\Users\ASUS\Desktop\Final Semester\Gratuation Project\Admin\admin-page\src\Components\Test.js                     | JavaScript |          7 |          0 |          2 |          9 |
+| c:\Users\ASUS\Desktop\Final Semester\Gratuation Project\Admin\admin-page\src\Components\index.js                    | JavaScript |          2 |          0 |          3 |          5 |
+| c:\Users\ASUS\Desktop\Final Semester\Gratuation Project\Admin\admin-page\src\Components\main.js                     | JavaScript |         19 |          0 |          2 |         21 |
+| c:\Users\ASUS\Desktop\Final Semester\Gratuation Project\Admin\admin-page\src\Components\server.js                   | JavaScript |          0 |         10 |          4 |         14 |
+| c:\Users\ASUS\Desktop\Final Semester\Gratuation Project\Admin\admin-page\src\Conetext\Auth.js                       | JavaScript |         14 |          0 |          5 |         19 |
+| c:\Users\ASUS\Desktop\Final Semester\Gratuation Project\Admin\admin-page\src\Map.js                                 | JavaScript |         15 |          2 |          5 |         22 |
+| c:\Users\ASUS\Desktop\Final Semester\Gratuation Project\Admin\admin-page\src\index.css                              | CSS        |          0 |          0 |          1 |          1 |
+| c:\Users\ASUS\Desktop\Final Semester\Gratuation Project\Admin\admin-page\src\index.js                               | JavaScript |         11 |          0 |          1 |         12 |
+| Total                                                                                                               |            |      4,154 |      1,108 |        743 |      6,005 |
++---------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+

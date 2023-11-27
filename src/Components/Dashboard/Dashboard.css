@@ -1,0 +1,169 @@
+
+
+.dashboard-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  margin-bottom: 20px;
+}
+
+.dashboard-header i {
+  font-size: 24px;
+  margin-right: 5em;
+  margin-left: 5em;
+  
+
+}
+
+.dashboard-header h1 {
+  font-size: 30px;
+  font-weight:800;
+}
+
+.dashboard-current-date {
+  margin-top: 0;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+
+.bank-btn{
+   margin-left:65em;
+   border-radius: 15px;
+   background-color: rgb(236, 236, 236);
+   border: none;
+   text-align: center;
+   height: em;
+   box-shadow: #333;
+   width: 6em;
+   color: #0b4b2f;
+}
+.h22{
+  color: #0b4b2f;
+  margin-top: 0.5em;
+}
+
+.h22 i {
+  margin-right: 1em;
+  font-size: 30px;
+  color: #34b11b;
+  margin-top: 1em;
+  margin-left: 0.5em;
+}
+.date-string,
+.time-string {
+  margin: 0 10px;
+  color:rgb(9, 110, 30);;
+  text-align: center;
+  font-size: large;
+  font-weight: bold;
+}
+
+.hrmargin {
+  flex-grow: 1;
+  border: none;
+  border-top: 1px solid black;
+}
+
+.dashboard-container-services {
+  display: flex;
+}
+
+
+.dashboard-services {
+  flex: 1;
+  margin-top: 0em;
+  margin-right: 4em;
+
+}
+
+
+
+/*count*/
+/* CSS code for the given HTML structure */
+.container-dash {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.inner-container {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 20px;
+  border-radius: 15px;
+  text-align: center;
+}
+
+.inner-container > div {
+  background-color:rgb(236, 236, 236);
+  padding: 10px;
+  text-align: center;
+  color:  rgb(9, 110, 30);;
+  border-radius: 15px;
+}
+
+.inner-container > div > div:first-child {
+  font-weight: bold;
+}
+
+.inner-container > div > div:last-child {
+  margin-top: 10px;
+  font-size: large;
+  font-weight: bold;
+}
+
+.inner-container > div:last-child {
+  background-color: #d7f0e1;
+}
+
+.inner-container > div:last-child > div:last-child {
+  font-weight: bold;
+  color: #0848a2;
+  margin-top: 10px;
+}
+.services-table-dash{
+  width: 100%;
+  margin-right: 4em;
+  border-collapse: collapse;
+  padding: 8px;
+  border: 1px solid #ccc;
+  margin-top: 20px;
+}
+
+.services-table-dash th {
+  font-weight: bold;
+  background-color: #f5f5f5;
+  padding: 10px;
+  color: #298816;
+  font-size: large;
+  text-align: left;
+  padding: 8px;
+  border: 1px solid #ccc;
+}
+
+.services-table-dash td {
+  padding: 10px;
+  color:#298816;
+  padding: 8px;
+  border: 1px solid #ccc;
+  font-size: large;
+
+}
+
+.services-table-dash tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.services-table-dash tr:hover {
+  background-color: #f1f1f1;
+}
+
+.services-table-dash img {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  border-radius: 50%;
+}

@@ -1,0 +1,195 @@
+/* Admin.css */
+
+.container-admin {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  width: 50%;
+  margin-top: 0.5em;
+  
+}
+.my-line{
+  flex-direction: row;
+}
+
+.add-admin-form {
+  background-color: #f7f7f7;
+  padding: 20px;
+  border-radius: 10px;
+  width: auto;
+  height: fit-content;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  margin-bottom: 20px;
+}
+
+.add-admin-form h1 {
+  margin: 0.5em;
+  text-align: center;
+  font-size: 24px;
+  color: #a14f02;
+}
+.h222{
+  color: #ffffff;
+  border: none;
+  background-color: darkgreen;
+  border-radius: 5px;
+  height: 2em;
+  width: 10em;
+}
+
+.form-fields {
+  display: flex;
+  flex-wrap: wrap;
+  border-radius: 2em;
+}
+
+.form-field {
+  width: 100%;
+  margin-bottom: 20px;
+  border-radius: 2em;
+
+}
+
+.form-field label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.form-field input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  border-radius: 5px;
+
+}
+
+
+
+.i-color-del{
+ color: red;
+ align-items: center;
+ display: flex;
+ margin-top: 0.5em;
+ justify-content: center;
+ cursor: pointer;
+
+}
+.i-color-add{
+  color: green;
+  align-items: center;
+  display: flex;
+  margin-top: 0.5em;
+  box-shadow: #4caf50;
+  justify-content: center;
+  cursor: pointer;
+}
+.btn-delete {
+  background-color: #f44336;
+  color: white;
+  border: none;
+  margin-left: 0.5em;
+
+  border-radius: 2em;
+  width:4em;
+  height: 1.5em;
+  cursor: pointer;
+}
+
+.admin-list {
+  background-color: #f7f7f7;
+  padding: 20px;
+  margin: 2em;
+  border-radius: 2em;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.admin-list h1 {
+  margin: 0;
+  text-align: center;
+  font-size: 24px;
+}
+
+
+
+.showAdmin{
+  margin-left: 2em;
+  font-size: large;
+  color: #ffffff;
+}
+
+
+
+/* Toast styles (React Toastify) */
+.Toastify__toast-container {
+  z-index: 9999;
+  border-radius: 2em;
+
+}
+
+
+
+.show-all-admins-switch {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.show-all-admins-switch span {
+  margin-right: 10px;
+}
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 40px;
+  height: 20px;
+}
+
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #781313;
+  transition: 0.4s;
+  border-radius: 20px;
+}
+
+.slider:before {
+  position: absolute;
+  content: '';
+  height: 14px;
+  width: 14px;
+  left: 3px;
+  bottom: 3px;
+  background-color: white;
+  transition: 0.4s;
+  border-radius: 50%;
+}
+
+input:checked + .slider {
+  background-color: #33d633;
+}
+
+input:checked + .slider:before {
+  transform: translateX(20px);
+}
+
+.slider.round {
+  border-radius: 20px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
